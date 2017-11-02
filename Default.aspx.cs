@@ -41,9 +41,9 @@ public partial class _Default : System.Web.UI.Page
         string StateOrCity = Convert.ToString(DropDownList2.SelectedValue);
         if (StateOrCity != "")
         {
-            //LatLong Output = WeatherService.(StateOrCity);
-            //GridView1.DataSource = Output.RESULTS;
-            //GridView1.DataBind();
+            LatLong Output = WeatherService.GetLatLong(StateOrCity);
+            GridView1.DataSource = Output;
+            GridView1.DataBind();
         }
         else
         {

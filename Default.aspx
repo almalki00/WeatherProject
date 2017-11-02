@@ -36,7 +36,7 @@
             <br />
             <asp:Label runat="server" ID="lblError" Style="color: Red"></asp:Label>
         </div>
-         <%--<div>
+         <div>
             <h1>Geographical Details</h1>
             <asp:DropDownList ID="DropDownList2" runat="server">
                 <asp:ListItem Value="">--Select--</asp:ListItem>
@@ -49,7 +49,7 @@
             <br />
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
-        </div>--%>
+        </div>
     </form>
 
 </body>
