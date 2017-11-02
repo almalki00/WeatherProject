@@ -11,4 +11,6 @@ public interface IWeatherService
 {
     [OperationContract]
     WeatherReports getWeatherData(string city_name, string state_name, int Username);
+    [OperationContract]
+    LatLong GetLatLong(string StateOrCity);
 }
